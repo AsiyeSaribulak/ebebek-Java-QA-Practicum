@@ -46,38 +46,7 @@ public class Employee {
         this.hireYear = hireYear;
     }
 
-    /*
-            public String getName() {
-                return name;
-            }
 
-            public void setName(String name) {
-                this.name = name;
-            }
-
-            public double getSalary() {
-                return salary;
-            }
-
-            public void setSalary(double salary) {
-                this.salary = salary;
-            }
-
-            public int getWorkHourse() {
-                return workHourse;
-            }
-
-            public void setWorkHourse(int workHourse) {
-                this.workHourse = workHourse;
-            }
-
-            public Date getHireYear() {
-                return hireYear;
-            }
-
-            public void setHireYear(Date hireYear) {
-                this.hireYear = hireYear;
-            }*/
     public float tax(float salary) {
          if (salary < 1000) {
             return 0;
@@ -128,7 +97,6 @@ public class Employee {
     }
 
     public void tostring(){
-       // Employee employee=new Employee("Asiye Sarıbulak",1500,50,2020);
         System.out.println("çalışanın adı ve soyadı : " +getName());
         System.out.println("çalışanın maaşı : " + getSalary() + "$");
         System.out.println("çalışanın haftalık çalışma saati : " + getWorkHourse());
