@@ -1,4 +1,4 @@
-package Entity;
+package calculateSalary;
 
 public class Employee {
     private String name;

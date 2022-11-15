@@ -1,4 +1,6 @@
-import Entity.Employee;
+package calculateSalary;
+
+import calculateSalary.Employee;
 
 public class Main {
     public static void main(String[] args) {
